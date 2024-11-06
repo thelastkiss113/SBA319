@@ -1,9 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import userRoutes from './src/routes/users.js';
-import postRoutes from './src/routes/posts.js';
-import commentRoutes from './src/routes/comments.js';
+import userRoutes from './routes/users.js';
+import postRoutes from './routes/posts.js';
+import commentRoutes from './routes/comments.js';
 
 dotenv.config();
 const app = express();
